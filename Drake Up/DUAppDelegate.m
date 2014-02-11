@@ -12,7 +12,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+	self.alarmViewController = [[DUAlarmListViewController alloc] initWithNibName:@"DUAlarmListViewController" bundle:nil];
+	self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:self.alarmViewController];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							

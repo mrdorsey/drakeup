@@ -14,13 +14,20 @@
 		4585D34618A9F11E003CEC42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585D34518A9F11E003CEC42 /* main.m */; };
 		4585D34A18A9F11E003CEC42 /* DUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585D34918A9F11E003CEC42 /* DUAppDelegate.m */; };
 		4585D34D18A9F11E003CEC42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4585D34B18A9F11E003CEC42 /* Main.storyboard */; };
-		4585D35018A9F11E003CEC42 /* DUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585D34F18A9F11E003CEC42 /* DUViewController.m */; };
+		4585D35018A9F11E003CEC42 /* DUAlarmListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585D34F18A9F11E003CEC42 /* DUAlarmListViewController.m */; };
 		4585D35218A9F11E003CEC42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4585D35118A9F11E003CEC42 /* Images.xcassets */; };
 		4585D35918A9F11E003CEC42 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4585D35818A9F11E003CEC42 /* XCTest.framework */; };
 		4585D35A18A9F11E003CEC42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4585D33918A9F11E003CEC42 /* Foundation.framework */; };
 		4585D35B18A9F11E003CEC42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4585D33D18A9F11E003CEC42 /* UIKit.framework */; };
 		4585D36318A9F11E003CEC42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4585D36118A9F11E003CEC42 /* InfoPlist.strings */; };
 		4585D36518A9F11E003CEC42 /* Drake_UpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585D36418A9F11E003CEC42 /* Drake_UpTests.m */; };
+		4585D37018AA040B003CEC42 /* DUAlarmData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585D36F18AA040B003CEC42 /* DUAlarmData.m */; };
+		4585D37318AA063B003CEC42 /* houstatlantavegas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4585D37218AA063B003CEC42 /* houstatlantavegas.mp3 */; };
+		4585D37518AA0903003CEC42 /* DUAlarmListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4585D37418AA0903003CEC42 /* DUAlarmListViewController.xib */; };
+		4585D37718AA0A1D003CEC42 /* drakes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4585D37618AA0A1D003CEC42 /* drakes.plist */; };
+		4585D37A18AA0A75003CEC42 /* DUAlarmFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585D37918AA0A75003CEC42 /* DUAlarmFactory.m */; };
+		4585D37C18AA18EC003CEC42 /* worst.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4585D37B18AA18EC003CEC42 /* worst.mp3 */; };
+		4585D37E18AA1A2F003CEC42 /* marvins.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4585D37D18AA1A2F003CEC42 /* marvins.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +52,39 @@
 		4585D34818A9F11E003CEC42 /* DUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAppDelegate.h; sourceTree = "<group>"; };
 		4585D34918A9F11E003CEC42 /* DUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAppDelegate.m; sourceTree = "<group>"; };
 		4585D34C18A9F11E003CEC42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4585D34E18A9F11E003CEC42 /* DUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUViewController.h; sourceTree = "<group>"; };
-		4585D34F18A9F11E003CEC42 /* DUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUViewController.m; sourceTree = "<group>"; };
+		4585D34E18A9F11E003CEC42 /* DUAlarmListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAlarmListViewController.h; sourceTree = "<group>"; };
+		4585D34F18A9F11E003CEC42 /* DUAlarmListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAlarmListViewController.m; sourceTree = "<group>"; };
 		4585D35118A9F11E003CEC42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4585D35718A9F11E003CEC42 /* Drake UpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drake UpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4585D35818A9F11E003CEC42 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4585D36018A9F11E003CEC42 /* Drake UpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drake UpTests-Info.plist"; sourceTree = "<group>"; };
 		4585D36218A9F11E003CEC42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4585D36418A9F11E003CEC42 /* Drake_UpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drake_UpTests.m; sourceTree = "<group>"; };
+		4585D36E18AA01D5003CEC42 /* DUAlarmData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUAlarmData.h; sourceTree = "<group>"; };
+		4585D36F18AA040B003CEC42 /* DUAlarmData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUAlarmData.m; sourceTree = "<group>"; };
+		4585D37218AA063B003CEC42 /* houstatlantavegas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = houstatlantavegas.mp3; sourceTree = "<group>"; };
+		4585D37418AA0903003CEC42 /* DUAlarmListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DUAlarmListViewController.xib; sourceTree = "<group>"; };
+		4585D37618AA0A1D003CEC42 /* drakes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = drakes.plist; sourceTree = "<group>"; };
+		4585D37818AA0A75003CEC42 /* DUAlarmFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUAlarmFactory.h; sourceTree = "<group>"; };
+		4585D37918AA0A75003CEC42 /* DUAlarmFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUAlarmFactory.m; sourceTree = "<group>"; };
+		4585D37B18AA18EC003CEC42 /* worst.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = worst.mp3; sourceTree = "<group>"; };
+		4585D37D18AA1A2F003CEC42 /* marvins.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = marvins.mp3; sourceTree = "<group>"; };
+		4585D3A018AA1BB2003CEC42 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40.png"; path = "../../../Downloads/icon/ios7/Icon-40.png"; sourceTree = "<group>"; };
+		4585D3A118AA1BB2003CEC42 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40@2x.png"; path = "../../../Downloads/icon/ios7/Icon-40@2x.png"; sourceTree = "<group>"; };
+		4585D3A218AA1BB2003CEC42 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60.png"; path = "../../../Downloads/icon/ios7/Icon-60.png"; sourceTree = "<group>"; };
+		4585D3A318AA1BB2003CEC42 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "../../../Downloads/icon/ios7/Icon-60@2x.png"; sourceTree = "<group>"; };
+		4585D3A418AA1BB2003CEC42 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../../../Downloads/icon/ios7/Icon-72.png"; sourceTree = "<group>"; };
+		4585D3A518AA1BB2003CEC42 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "../../../Downloads/icon/ios7/Icon-72@2x.png"; sourceTree = "<group>"; };
+		4585D3A618AA1BB2003CEC42 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76.png"; path = "../../../Downloads/icon/ios7/Icon-76.png"; sourceTree = "<group>"; };
+		4585D3A718AA1BB2003CEC42 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76@2x.png"; path = "../../../Downloads/icon/ios7/Icon-76@2x.png"; sourceTree = "<group>"; };
+		4585D3A818AA1BB2003CEC42 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "../../../Downloads/icon/ios7/Icon-Small-50.png"; sourceTree = "<group>"; };
+		4585D3A918AA1BB2003CEC42 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "../../../Downloads/icon/ios7/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		4585D3AA18AA1BB2003CEC42 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "../../../Downloads/icon/ios7/Icon-Small.png"; sourceTree = "<group>"; };
+		4585D3AB18AA1BB2003CEC42 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "../../../Downloads/icon/ios7/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		4585D3AC18AA1BB2003CEC42 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../Downloads/icon/ios7/Icon.png; sourceTree = "<group>"; };
+		4585D3AD18AA1BB2003CEC42 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../../Downloads/icon/ios7/Icon@2x.png"; sourceTree = "<group>"; };
+		4585D3AE18AA1BB2003CEC42 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = ../../../Downloads/icon/ios7/iTunesArtwork.png; sourceTree = "<group>"; };
+		4585D3AF18AA1BB2003CEC42 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "../../../Downloads/icon/ios7/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +133,22 @@
 		4585D33818A9F11E003CEC42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4585D3A018AA1BB2003CEC42 /* Icon-40.png */,
+				4585D3A118AA1BB2003CEC42 /* Icon-40@2x.png */,
+				4585D3A218AA1BB2003CEC42 /* Icon-60.png */,
+				4585D3A318AA1BB2003CEC42 /* Icon-60@2x.png */,
+				4585D3A418AA1BB2003CEC42 /* Icon-72.png */,
+				4585D3A518AA1BB2003CEC42 /* Icon-72@2x.png */,
+				4585D3A618AA1BB2003CEC42 /* Icon-76.png */,
+				4585D3A718AA1BB2003CEC42 /* Icon-76@2x.png */,
+				4585D3A818AA1BB2003CEC42 /* Icon-Small-50.png */,
+				4585D3A918AA1BB2003CEC42 /* Icon-Small-50@2x.png */,
+				4585D3AA18AA1BB2003CEC42 /* Icon-Small.png */,
+				4585D3AB18AA1BB2003CEC42 /* Icon-Small@2x.png */,
+				4585D3AC18AA1BB2003CEC42 /* Icon.png */,
+				4585D3AD18AA1BB2003CEC42 /* Icon@2x.png */,
+				4585D3AE18AA1BB2003CEC42 /* iTunesArtwork.png */,
+				4585D3AF18AA1BB2003CEC42 /* iTunesArtwork@2x.png */,
 				4585D33918A9F11E003CEC42 /* Foundation.framework */,
 				4585D33B18A9F11E003CEC42 /* CoreGraphics.framework */,
 				4585D33D18A9F11E003CEC42 /* UIKit.framework */,
@@ -115,8 +163,13 @@
 				4585D34818A9F11E003CEC42 /* DUAppDelegate.h */,
 				4585D34918A9F11E003CEC42 /* DUAppDelegate.m */,
 				4585D34B18A9F11E003CEC42 /* Main.storyboard */,
-				4585D34E18A9F11E003CEC42 /* DUViewController.h */,
-				4585D34F18A9F11E003CEC42 /* DUViewController.m */,
+				4585D36E18AA01D5003CEC42 /* DUAlarmData.h */,
+				4585D36F18AA040B003CEC42 /* DUAlarmData.m */,
+				4585D37818AA0A75003CEC42 /* DUAlarmFactory.h */,
+				4585D37918AA0A75003CEC42 /* DUAlarmFactory.m */,
+				4585D34E18A9F11E003CEC42 /* DUAlarmListViewController.h */,
+				4585D34F18A9F11E003CEC42 /* DUAlarmListViewController.m */,
+				4585D37418AA0903003CEC42 /* DUAlarmListViewController.xib */,
 				4585D35118A9F11E003CEC42 /* Images.xcassets */,
 				4585D34018A9F11E003CEC42 /* Supporting Files */,
 			);
@@ -126,6 +179,7 @@
 		4585D34018A9F11E003CEC42 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4585D37118AA0624003CEC42 /* drakes */,
 				4585D34118A9F11E003CEC42 /* Drake Up-Info.plist */,
 				4585D34218A9F11E003CEC42 /* InfoPlist.strings */,
 				4585D34518A9F11E003CEC42 /* main.m */,
@@ -150,6 +204,17 @@
 				4585D36118A9F11E003CEC42 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4585D37118AA0624003CEC42 /* drakes */ = {
+			isa = PBXGroup;
+			children = (
+				4585D37618AA0A1D003CEC42 /* drakes.plist */,
+				4585D37218AA063B003CEC42 /* houstatlantavegas.mp3 */,
+				4585D37B18AA18EC003CEC42 /* worst.mp3 */,
+				4585D37D18AA1A2F003CEC42 /* marvins.mp3 */,
+			);
+			name = drakes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +296,12 @@
 			files = (
 				4585D35218A9F11E003CEC42 /* Images.xcassets in Resources */,
 				4585D34418A9F11E003CEC42 /* InfoPlist.strings in Resources */,
+				4585D37C18AA18EC003CEC42 /* worst.mp3 in Resources */,
+				4585D37318AA063B003CEC42 /* houstatlantavegas.mp3 in Resources */,
 				4585D34D18A9F11E003CEC42 /* Main.storyboard in Resources */,
+				4585D37718AA0A1D003CEC42 /* drakes.plist in Resources */,
+				4585D37E18AA1A2F003CEC42 /* marvins.mp3 in Resources */,
+				4585D37518AA0903003CEC42 /* DUAlarmListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +320,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4585D37A18AA0A75003CEC42 /* DUAlarmFactory.m in Sources */,
+				4585D37018AA040B003CEC42 /* DUAlarmData.m in Sources */,
 				4585D34618A9F11E003CEC42 /* main.m in Sources */,
-				4585D35018A9F11E003CEC42 /* DUViewController.m in Sources */,
+				4585D35018A9F11E003CEC42 /* DUAlarmListViewController.m in Sources */,
 				4585D34A18A9F11E003CEC42 /* DUAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

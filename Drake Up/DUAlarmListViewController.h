@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DUViewController : UIViewController
+@interface DUAlarmListViewController : UITableViewController <UISearchDisplayDelegate, UISearchBarDelegate>
+
+@property (nonatomic, retain) AVAudioPlayer *drakeAudioPlayer;
 
 @end
